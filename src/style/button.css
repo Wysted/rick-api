@@ -1,0 +1,27 @@
+.container__buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 4vh 0;
+    gap: 2vh;
+}
+.buttons_button1,.buttons_button2{
+    box-sizing: border-box;
+    width: 15vh;
+    height: 5vh;
+    cursor: pointer;
+    border: none;
+    background-color: skyblue;
+    color: greenyellow;
+    font-size: 4vh;
+    box-shadow: -2px -2px 10px #bababa, 2px 2px 10px #ffffff;
+}
+.buttons_button1{
+    border-radius: 1vh 0 0 1vh;
+    
+
+}
+.buttons_button2{
+    border-radius: 0 1vh 1vh 0;
+
+}

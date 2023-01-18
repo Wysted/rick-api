@@ -1,0 +1,8 @@
+.container__navbar{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+    
+}
