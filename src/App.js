@@ -19,25 +19,7 @@ function App() {
             setInfo(response.data.info)
         });
     }, []);
-    // const initialUrl = "https://rickandmortyapi.com/api/character";
-    
-    // const [character, setCharacter] = useState([]);
-    // const [info,setInfo] = useState({})
-
-    // const fetchCharacter = (initialUrl) => {
-    //     fetch(initialUrl)
-    //         .then(response => response.json())
-    //         .then(data => {
-    //             setCharacter(data.results)
-    //             setInfo(data.info)
-    //         })
-    //         .catch(error => console.log(error))
-    // }
-    // useEffect(()=>{
-    //     fetchCharacter(initialUrl);
-    // },[])
-
-
+   
     const onPrevius = () =>{
         getCharacters(info.prev)
         .then(response => {
