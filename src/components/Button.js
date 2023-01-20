@@ -12,12 +12,12 @@ function Button({ prev, next, onPrevius, onNext }){
         <div className="container__buttons">
             {
                 prev ? 
-                <button className = "buttons_button1" onClick = {handlePrevius} value = "←" >←</button>
+                <button className = "buttons_button1" onClick = { handlePrevius } value = "←" >←</button>
                 : null
             }
             {
                 next ? 
-                <button className = "buttons_button2" onClick = {handleNext} value = "→" >→</button>
+                <button className = "buttons_button2" onClick = { handleNext } value = "→" >→</button>
                 : null
             }
 
